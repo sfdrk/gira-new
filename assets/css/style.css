@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@font-face {
+  font-family: 'Paris';
+  src: url("./fonts/Paris-Regular.woff2") format("woff2"), url("./fonts/Paris-Regular.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 8rem;
+}
+
+.navbar-container .logo {
+  display: block;
+}
+
+.navbar-container .logo img {
+  padding-top: 2.3rem;
+  padding-bottom: 1.875rem;
+}
+
+.navbar-container .navbar-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-container .navbar-block .navbar {
+  padding: 0;
+}
+
+.navbar-container .navbar-block .navbar .main-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar-container .navbar-block .navbar .main-list li {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Space Mono', monospace;
+}
+
+.navbar-container .navbar-block .navbar .main-list li a {
+  text-decoration: none;
+  color: #B2B2B2;
+  padding: 8px 16px;
+}
+
+.navbar-container .navbar-block .navbar .main-list li a:hover {
+  color: #296383;
+  background-color: #F4F7F9;
+  border-radius: 12px;
+  opacity: 0.5rem;
+}
+
+.navbar-container .navbar-block .navbar .main-list li .home-dropdown {
+  display: flex;
+}
+
+.navbar-container .navbar-block .navbar .main-list li .home-dropdown .dropdown-first-sec .first-sec-content {
+  max-width: 180px;
+  width: 100%;
+}
+
+.navbar-container .navbar-block .navbar .main-list li .home-dropdown .dropdown-second-sec .dropdown-list {
+  flex-direction: column;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+main .hero-container {
+  padding: 4.75rem 8.75rem 0 8.75rem;
+}
+
+main .hero-container img {
+  max-width: 664px;
+  width: 100%;
+  height: 704px;
+  width: 100%;
+}
+
+main .hero-container .hero-block {
+  padding-top: 9.5rem;
+  justify-content: center;
+  position: relative;
+  left: 7rem;
+}
+
+main .hero-container .hero-block .hero-blk-head {
+  font-size: 7.5rem;
+  color: #296383;
+  font-family: "Paris";
+  letter-spacing: 2.4px;
+  height: 10rem;
+}
+
+main .hero-container .hero-block .hero-blk-sub-1 {
+  font-size: 2.188rem;
+  font-family: 'Space Mono', monospace;
+  letter-spacing: 0.7px;
+  height: 4rem;
+}
+
+main .hero-container .hero-block .hero-blk-sub-2 {
+  font-size: 1.125rem;
+  font-family: 'Space Mono', monospace;
+}
+
+main .hero-container .gera-swap-container {
+  background: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .hero-container .gera-swap-container .gera-swap-block {
+  max-width: 53.75rem;
+  width: 100%;
+  background-color: yellow;
+}
+
+main .hero-container .gera-swap-container .gera-swap-block .swap-head {
+  font-family: "Paris";
+  font-size: 2.188rem;
+  color: #296383;
+}
+
+main .hero-container .gera-swap-container .gera-swap-block .swap-content {
+  font-family: 'Space Mono', monospace;
+}
+
+section .sec-div {
+  height: 100px;
+  width: 100%;
+  background-color: yellow;
+}
